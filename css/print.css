@@ -1,0 +1,27 @@
+  
+   @media screen
+   {
+   	  table{
+   	  	border: 1px solid red;
+   	  }
+      p.bodyText {font-family:verdana, arial, sans-serif;}
+   }
+
+   @media print
+   {
+   	table{
+   	  	border: 1px solid red;
+   	  }
+      p.bodyText {font-family:georgia, times, serif;}
+   }
+   @media screen, print
+   {
+   	table{
+   	  	border: 1px solid red;
+   	  }
+      p.bodyText {font-size:10pt}
+   }
+  table
+  {
+      border: 1px solid red;
+  }
